@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* 2017-12-04 wuyunduoduopiao */
+
+body,ul,ol,li,h1,h2,h3,h4,h5,h6,p,pre,code,form,img,dl,dd,dt,input,textarea,button,th,td,iframe{margin:0;padding:0}
+html{font:12px/1.5 'Microsoft YaHei',sans-serif}
+img{border:none; max-width:100%; vertical-align:top}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+input,select,textarea{font-size:100%;vertical-align:baseline;*vertical-align:middle}
+ol,ul{list-style:none}
+textarea{overflow:auto;vertical-align:top;resize:vertical}
+table{border-collapse:collapse;border-spacing:0}
+em,i,code,cite,address,th{font-style:normal}
+.clear{clear:both;line-height:0;font-size:0}
+.clearfix{*zoom:1;_height:1px}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+a{text-decoration:none;outline:none;color:#069}
+
+
+.w_1000{ width:1000px; margin:0 auto}
+.col_e47064{ color: #e47064}
+@media screen and (max-width: 1000px) {
+	.mobile_hide{ display: none }
+}
+/*index*/
+.index .header{ background:#E0A89C url(../images/index/bg.jpg) center center no-repeat; color:#fff; height: 900px; position: relative}
+.index .header a{ color:#fff}
+.index .header .head{ font-size: 24px; padding-top: 30px}
+.index .header .logo{ float: left}
+.index .header .logo .icon_logo{ background:url(../images/logo.png) no-repeat; width: 50px; height: 50px; display: inline-block; vertical-align: -15px; margin-right: 16px}
+.index .header .nav{ float:right; height: 50px; line-height: 50px}
+.index .header .summary{ margin-top:100px}
+.index .header .summary .l{ float:left}
+.index .header .summary .r{ float:right}
+.index .header .summary .solgn{ padding:120px 0 220px}
+.index .header .summary .solgn h1{ font-size: 36px}
+.index .header .summary .solgn p{ font-size: 28px}
+.index .header .download a{ background: rgba(255,255,255,0.5); border-radius: 40px; padding: 15px 30px; font-size: 22px; display: inline-block}
+.index .header .download a:first-child{ margin-right:17px}
+.index .header .download i{ background: url(../images/index/icon_download_ios.png); width: 34px; height: 34px; display: inline-block; vertical-align: -7px; margin-right: 20px}
+.index .header .download .icon_download_android{ background: url(../images/index/icon_download_android.png)}
+.index .header .summary .icon_summarg_bg{ background:url(../images/zh_cn/index/summarg_bg.png); width: 450px; height: 600px; display: block; margin-right: -50px}
+.index .header .summary .icon_summarg_bg_en{ background:url(../images/en/index/summarg_bg.png)}
+.index .header .pair{ width: 300px; position: absolute; bottom: 20px; left: 50%; margin-left: -150px; text-align: center}
+.index .header .pair div{ font-size:24px}
+.index .header .pair p{ font-size:34px; letter-spacing: 2px}
+@media screen and (max-width: 1000px) {
+	.w_1000{ width: auto; margin: auto}
+	.index .header{ background-size: cover; height: 260px}
+	.index .header .head{ font-size: 16px; padding: 12px 40px 0}
+	.index .header .logo .icon_logo{ width: 16px; height: 16px; vertical-align: -2px; margin-right: 4px; background-size: 100%}
+	.index .header .nav{ height: 24px; line-height: 24px; font-size:14px}
+	.index .header .summary{ margin-top:10px}
+	.index .header .summary .solgn{ padding:0 0 0 40px}
+	.index .header .summary .solgn h1{ display: none}
+	.index .header .summary .solgn p{ font-size: 12px}
+	.index .header .download{ display: none}
+	.index .header .summary .icon_summarg_bg{ background-size:100%; width: 135px; height: 180px; margin-right:0}
+	.index .header .pair{ bottom: 5px }
+	.index .header .pair div{ font-size:12px; line-height: 1}
+	.index .header .pair p{ font-size:17px}
+}
+.index_mod{ position: relative}
+.index_mod .pic{ width: 308px; height: 518px}
+.index_mod .desc{ width: 420px; padding-top: 70px}
+.index_mod .desc h2{ color:#E66E5C; font-size: 36px; padding-bottom: 70px}
+.index_mod .desc p{ color:#9B9B9B; font-size: 28px}
+.index_mod_left .pic,.index_mod_right .desc{ float: left}
+.index_mod_left .desc,.index_mod_right .pic{ float: right}
+.index_mod_left .desc h2{ text-align: right}
+.index_mod_1{ padding: 90px 0 70px}
+.index_mod_2{ padding: 90px 0 120px}
+.index_mod_3{ padding: 90px 0 0}
+.index_mod_1 .pic_1{ background: url(../images/zh_cn/index/pic_1.png)}
+.index_mod_2 .pic_2{ background: url(../images/zh_cn/index/pic_2.png)}
+.index_mod_3 .pic_3{ background: url(../images/zh_cn/index/pic_3.png)}
+.index_mod_1 .pic_1_en{ background: url(../images/en/index/pic_1.png)}
+.index_mod_2 .pic_2_en{ background: url(../images/en/index/pic_2.png)}
+.index_mod_3 .pic_3_en{ background: url(../images/en/index/pic_3.png)}
+@media screen and (max-width: 1000px) {
+	.index_mod .pic{ width: 200px; height: 320px; background-size: 100%; margin: 10px auto 0}
+	.index_mod .desc{ width: 290px; padding-top:0; margin: 0 auto; }
+	.index_mod .desc h2{ font-size: 14px; padding-bottom: 10px; text-align: center}
+	.index_mod .desc p{ font-size: 12px}
+	.index_mod_left .pic,.index_mod_right .desc{ float: none}
+	.index_mod_left .desc,.index_mod_right .pic{ float: none}
+	.index_mod_left .desc h2{ text-align: center }
+	.index_mod_1{ padding: 25px 0}
+	.index_mod_2{ padding: 25px 0}
+	.index_mod_3{ padding: 25px 0}
+}
+/*g_download_now*/
+.g_download_now{ width: 850px; margin: 0 auto 70px; text-align: center}
+.g_download_now p{ font-size:36px; color:#E66E5C; margin-bottom: 20px}
+.g_download_now i{ width: 200px; height: 200px; display: inline-block; box-shadow: 0 15px 30px rgba(0,0,0,0.15); border-radius:10px}
+.g_download_now .icon_download_now_ios{ background:url(../images/icon_download_now_ios.png)}
+.g_download_now .icon_download_now_android{ background:url(../images/icon_download_now_android.png); margin:0 120px}
+.g_download_now .icon_download_now_qr_cn{ background:url(../images/icon_download_now_qr_cn.png)}
+.g_download_now .icon_download_now_qr_en{ background:url(../images/icon_download_now_qr_en.png)}
+@media screen and (max-width: 1000px) {
+	.g_download_now{ display: none}
+}
+/*ball*/
+.index_mod_1 .icon_ball_1{ width: 520px; height: 520px; border-radius: 50%; position: absolute; left: -112px; top: -156px; z-index: -1; background: #F8D4C9;  background:-webkit-linear-gradient(135deg, #FF9A9E, #F8D4C9); background:linear-gradient(135deg, #FF9A9E, #F8D4C9)}
+.index_mod_2 .icon_ball_2_wrap{ width: 530px; height: 530px; position: absolute; right: 0; top: 200px; z-index: -1; overflow: hidden}
+.index_mod_2 .icon_ball_2{ width: 530px; height: 530px; border-radius: 50%; position: absolute; right: -140px; top: 0; background: #D8F3FA; background:-webkit-linear-gradient(135deg, #D8F3FA, #A8C6F6);  background:linear-gradient(135deg, #D8F3FA, #A8C6F6)}
+.index_mod_2 .icon_ball_3{ width: 140px; height: 140px; border-radius: 50%; position: absolute; left: 50%; margin-left:-170px; bottom: 0; z-index: -1; background: #B1CCF8; background:-webkit-linear-gradient(135deg, #B1CCF8, #D4F3FB);  background:linear-gradient(135deg, #B1CCF8, #D4F3FB)}
+.index_mod_3 .icon_ball_4{ width: 680px; height: 680px; border-radius: 50%; position: absolute; left: -120px; top: 150px; z-index: -1; background: #FEDBD1; background:-webkit-linear-gradient(135deg, #FEDBD1, #FF9A9E);  background:linear-gradient(135deg, #FEDBD1, #FF9A9E)}
+.index_mod_3 .icon_ball_4_en{ left: -220px}
+@media screen and (max-width: 1000px) {
+	.index_mod_1 .icon_ball_1{ width: 160px; height: 160px; left: -65px; top: 200px}
+	.index_mod_2 .icon_ball_2_wrap{ width: 170px; height: 170px}
+	.index_mod_2 .icon_ball_2{ width: 170px; height: 170px; right: -75px}
+	.index_mod_2 .icon_ball_3{ width: 50px; height: 50px; left: 40px; margin-left:0; bottom: auto; top: 150px}
+	.index_mod_3 .icon_ball_4{ width: 250px; height: 250px; left: -140px; top: 130px}
+}
+/*g_footer*/
+.g_footer{ background: url(../images/footer.jpg) center center no-repeat; height: 460px; text-align: center; color: #fff}
+.g_footer a{ color:#fff}
+.g_footer h3{ padding:145px 0 30px; font-size: 28px}
+.g_footer p{ font-size:20px}
+@media screen and (max-width: 1000px) {
+	.g_footer{ height: 150px; background-size: cover}
+	.g_footer h3{ padding:20px 0 10px; font-size: 12px}
+	.g_footer p{ font-size:8px}
+}
+.g_download_app{ display: none }
+@media screen and (max-width: 1000px) {
+	.g_download_app{ display: block; position: fixed; bottom: 0; left: 0; z-index: 10; width: 100%; height: 50px; color: #fff; text-align: center; font-size: 18px; line-height: 50px; background: #FA646E; background:-webkit-linear-gradient(90deg, #FFA283, #FA646E); background:linear-gradient(90deg, #FFA283, #FA646E)}
+}
+
+/*press*/
+.press .header{ color:#424242; height:120px; border-bottom: 1px solid #E8E8E8}
+.press .header a{ color:#424242}
+.press .header .head{ padding-top: 30px; font-size: 24px}
+.press .header .logo{ float: left}
+.press .header .logo .icon_logo{ background:url(../images/logo.png) no-repeat; width: 50px; height: 50px; display: inline-block; vertical-align: middle; margin-right: 16px}
+.press .header .logo span{ vertical-align: middle}
+.press .header .follow{ float:right; height: 50px; line-height: 50px}
+.press .header .follow span{ float: left; margin-right: -20px}
+.press .header .follow a{ float: left; margin-left: 40px}
+.press .icon_follow{ background-repeat: no-repeat; width: 50px; height: 50px; display: block}
+.press .icon_follow_facebook{ background-image: url(../images/follow/facebook.png)}
+.press .icon_follow_twitter{ background-image: url(../images/follow/twitter.png)}
+.press .icon_follow_instagram{ background-image: url(../images/follow/instagram.png)}
+.press .container{ margin-top: 50px}
+.press .container h2{ font-size:60px}
+.press .container .desc{ font-size: 24px; color: #9B9B9B }
+.press .container .desc .col_e47064{ color: #E47064 }
+.press .container .screen{ position: relative; margin:50px 0 100px -37px}
+.press .container .screen i{ background-repeat: no-repeat; width: 170px; height: 303px; float: left; margin-left: 37px; box-shadow: 0 15px 30px rgba(0,0,0,0.1)}
+.press .icon_press_screen_1_en{ background-image: url(../images/en/press/pic_1.png)}
+.press .icon_press_screen_2_en{ background-image: url(../images/en/press/pic_2.png)}
+.press .icon_press_screen_3_en{ background-image: url(../images/en/press/pic_3.png)}
+.press .icon_press_screen_4_en{ background-image: url(../images/en/press/pic_4.png)}
+.press .icon_press_screen_5_en{ background-image: url(../images/en/press/pic_5.png)}
+@media screen and (max-width: 1000px) {
+	.press .header{ height:50px}
+	.press .header .head{ font-size: 18px; padding-top: 10px; margin:0 10px}
+	.press .header .logo .icon_logo{ width: 30px; height: 30px; background-size: 100%; margin-right:10px}
+	.press .header .follow{ height: 30px; line-height: 30px}
+	.press .header .follow span{ margin-right: 0}
+	.press .header .follow a{ margin-left: 10px}
+	.press .icon_follow{ width: 30px; height: 30px; background-size: 100%}
+	.press .container{ margin: 30px 10px 0}
+	.press .container h2{ font-size:30px}
+	.press .container .desc{ font-size: 18px}
+	.press .container .screen{ margin:20px 0 0}
+	.press .container .screen i{ display: block; float: none; margin:0 auto 30px}
+}
+

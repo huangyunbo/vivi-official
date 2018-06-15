@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* 2018-01-06 wuyunduoduopiao */
+
+body,ul,ol,li,h1,h2,h3,h4,h5,h6,p,pre,code,form,img,dl,dd,dt,input,textarea,button,th,td,iframe{margin:0;padding:0}
+html{font:12px/1.5 'Microsoft YaHei',sans-serif}
+img{border:none; max-width:100%; vertical-align:top}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+input,select,textarea{font-size:100%;vertical-align:baseline;*vertical-align:middle}
+ol,ul{list-style:none}
+textarea{overflow:auto;vertical-align:top;resize:vertical}
+table{border-collapse:collapse;border-spacing:0}
+em,i,code,cite,address,th{font-style:normal}
+.clear{clear:both;line-height:0;font-size:0}
+.clearfix{*zoom:1;_height:1px}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+a{text-decoration:none;outline:none;color:#069}
+
+html, body{ height: 100%; -webkit-tap-highlight-color: transparent }
+.swiper-container{ height: 100%; max-width: 750px;}
+.download_app{ display: block; position: fixed; bottom: 0; left: 0; z-index: 10; width: 100%; height: 50px; color: #fff; text-align: center; font-size: 18px; line-height: 50px; background: #FA646E; background:-webkit-linear-gradient(90deg, #FFA283, #FA646E);  background:linear-gradient(90deg, #FFA283, #FA646E)}
+
+.page_index{ width: 280px; height: 100%; display: flex; flex-direction: column; justify-content:center; align-items:center; margin: 0 auto; text-align: center}
+.page_index .icon_invite_mail{ background: url(../images/invite/mail.png) no-repeat center center; background-size:contain; width: 176px; height: 118px}
+.page_index .who{ color: #D8614A; font-size: 18px; margin:90px 0 12px;}
+.page_index .tips{ width: 190px; font-size: 14px; color: #666; padding-bottom: 40px}
+.page_index .tips_en{ width: 300px }
+.page_index .code{ font-size: 18px; line-height: 1.6; color: #333 }
+
+.page{ width: 100%; height: 100%; display: flex; flex-direction: column; justify-content:center; overflow: hidden;}
+.page .desc{ width: 300px; margin: 0 auto }
+.page .desc_en{ width: 320px }
+.page .desc h2{ text-align: center; color: #E66E5C; font-size: 15px; margin-bottom: 10px; }
+.page .desc p{ color: #9B9B9B; font-size: 12px }
+.page .desc_en p{ font-size: 10px }
+.page .mobile_demo{ width: 260px; margin: 20px auto 0; height: 440px; display: block; background-position:center top; background-repeat:no-repeat; background-size:contain; }
+.page_1 .mobile_demo{ background-image:url(../images/zh_cn/index/pic_1.png) }
+.page_1 .mobile_demo_en{ background-image: url(../images/en/index/pic_1.png) }
+.page_2 .mobile_demo{ background-image:url(../images/zh_cn/index/pic_2.png) }
+.page_2 .mobile_demo_en{ background-image: url(../images/en/index/pic_2.png) }
+.page_3 .mobile_demo{ background-image:url(../images/zh_cn/index/pic_3.png) }
+.page_3 .mobile_demo_en{ background-image: url(../images/en/index/pic_3.png) }
+.page .ball{ position: relative }
+.page .icon_ball{ position: absolute; border-radius: 50%; z-index: -1 }
+.icon_ball_1{ width: 210px; height: 210px; left: -50px; top: 10px; background: #F8D4C9; background:-webkit-linear-gradient(135deg, #FF9A9E, #F8D4C9); background:linear-gradient(135deg, #FF9A9E, #F8D4C9)}
+.icon_ball_2_wrap{ width: 170px; height: 170px; position: absolute; right: 0; top: 230px; z-index: -1; overflow: hidden}
+.icon_ball_2{ width: 170px; height: 170px; right: -80px; top: 0; background: #D8F3FA; background:-webkit-linear-gradient(135deg, #D8F3FA, #A8C6F6);  background:linear-gradient(135deg, #D8F3FA, #A8C6F6)}
+.icon_ball_3{ width: 50px; height: 50px; left: 20px; top: 20px; background: #B1CCF8; background:-webkit-linear-gradient(135deg, #B1CCF8, #D4F3FB);  background:linear-gradient(135deg, #B1CCF8, #D4F3FB)}
+.icon_ball_4{ width: 210px; height: 210px; left: -90px; top: 20px; background: #FEDBD1; background:-webkit-linear-gradient(135deg, #FEDBD1, #FF9A9E);  background:linear-gradient(135deg, #FEDBD1, #FF9A9E)}
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translate3d(0,100%,0) }
+    to { opacity: 1; transform:none }
+}
+.swiper-slide-active .page .desc h2,.swiper-slide-active .page .desc p,.swiper-slide-active .page .mobile_demo{ animation:fadeInUp .4s .3s; animation-fill-mode: both}
+
+.swiper-pagination-bullet-active{ background:#DA5642 !important}

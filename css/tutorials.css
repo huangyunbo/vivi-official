@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* 2018-03-015 wuyunduoduopiao */
+
+body,ul,ol,li,h1,h2,h3,h4,h5,h6,p,pre,code,form,img,dl,dd,dt,input,textarea,button,th,td,iframe{margin:0;padding:0}
+html{font:12px/1.5 'Microsoft YaHei',sans-serif}
+img{border:none; max-width:100%; vertical-align:top}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+input,select,textarea{font-size:100%;vertical-align:baseline;*vertical-align:middle}
+ol,ul{list-style:none}
+textarea{overflow:auto;vertical-align:top;resize:vertical}
+table{border-collapse:collapse;border-spacing:0}
+em,i,code,cite,address,th{font-style:normal}
+.clear{clear:both;line-height:0;font-size:0}
+.clearfix{*zoom:1;_height:1px}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+a{text-decoration:none;outline:none;color:#069}
+
+html, body{ height: 100%; -webkit-tap-highlight-color: transparent }
+p{ color: #999 }
+.fs_14{ font-size: 14px }
+.fs_16{ font-size: 16px }
+.fs_bold{ font-weight: bold }
+.col_eb8677{ color: #eb8677 }
+.col_666{ color: #666 }
+.pb_10{ padding-bottom: 10px }
+.pb_20{ padding-bottom: 20px }
+.pb_30{ padding-bottom: 30px }
+.w_max_200{ max-width: 200px}
+
+.list li a{ font-size: 15px; color: #333; padding-left: 15px; display: block;}
+.list li a span{  padding: 20px 25px 20px 0; display: block; border-bottom:1px solid #E3E3E3; position: relative}
+.list li .icon{ border: 1px solid #A4A0A8; border-width: 0 1px 1px 0; width: 10px; height: 10px; overflow: hidden; position: absolute; right: 15px; top: 25px; transform:rotate(-45deg)}
+
+.detail{ margin: 10px }
+.detail .img{ margin: 20px auto 30px; display: block; }
